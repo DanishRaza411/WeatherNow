@@ -11,7 +11,7 @@ btn.addEventListener("click", function (event) {
 });
 
 function getWeather() {
-  const apiKey = "371241305ba7545d72376787dd7b3513";
+  const apiKey = "My-secret-Api-key-from-openweather";
   const city = document.getElementById("city").value;
 
   if (!city) {
